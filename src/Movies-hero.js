@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-
-import imgTitle from './img/Cinema.png';
+import './styles/css/App.css';
 
 class MoviesHero extends Component {
 
@@ -19,7 +18,7 @@ class MoviesHero extends Component {
     return (
       <section className="section-movies" >
         <div className="section-movies__hero" >
-          <img className="section-movies__hero-img" src={imgTitle} />
+          <img className="section-movies__hero-img" src="https://matheussmokingweb.github.io/React-Movie/build/static/media/Cinema.8b3a1b8c.png" />
           <h1 className="section-movies__hero-title">Em cartaz no Mundo</h1>
         </div>
         <div className="section-movies__movies-theater" >
